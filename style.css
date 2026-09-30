@@ -1,3 +1,187 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo{
+    width: 500px;
+}
+
+header{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul{
+    margin: 80px 40px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 20px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: rgb(57, 161, 126);
+}
+
+.selected{
+    color: rgb(57, 161, 126);
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+}
+
+#hero{
+    background-image: url('images/the-beacon.jpg');
+    background-size: cover;
+    height: 1050px;
+    display: flex;
+    flex-direction: row;
+}
+
+#hero div{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+}
+
+#hero div h2{
+    background-color: white;
+    padding: 20px 30px;
+    margin: 20px;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#hero div p{
     background-color: black;
+    color: white;
+    padding: 20px 30px;
+    margin: 20px;
+    font-size: 24px;
+}
+
+#hero div a{
+    font-size: 24px;
+    background-color: rgb(57, 161, 126);
+    color: white;
+    padding: 30px 40px;
+    margin: 20px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#hero div a:hover{
+    background-color: rgb(70, 200, 157);
+}
+
+#none{
+    width: 50%;
+}
+
+.galleryrow{
+    justify-content: center;
+    margin: 60px 10px;
+}
+
+.galleryrow img{
+    width: 400px;
+    border: 3px solid #333;
+    margin: 20px;
+    filter: contrast(70%) brightness(130%);
+}
+
+.imgcard{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgcard p{
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+}
+
+footer{
+    height: 130px;
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+    color: white;
+    font-size: 24px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer div{
+    display: flex;
+    margin-right: 70px;
+}
+
+.icon{
+    width: 60px;
+    height: 60px;
+    margin: 30px;
+}
+
+#twitter{
+    background-image: url(images/icons/icon-twitter.jpg);
+    background-size: cover;
+}
+
+#twitter:hover{
+    background-image: url(images/icons/icon-twitter-hover.jpg);
+    background-size: cover;
+}
+
+#pintrest{
+    background-image: url(images/icons/icon-pinterest.jpg);
+    background-size: cover;
+}
+
+#pintrest:hover{
+    background-image: url(images/icons/icon-pinterest-hover.jpg);
+    background-size: cover;
+}
+
+#google{
+    background-image: url(images/icons/icon-googleplus.jpg);
+    background-size: cover;
+}
+
+#google:hover{
+    background-image: url(images/icons/icon-googleplus-hover.jpg);
+    background-size: cover;
+}
+
+#facebook{
+    background-image: url(images/icons/icon-facebook.jpg);
+    background-size: cover;
+}
+
+#facebook:hover{
+    background-image: url(images/icons/icon-facebook-hover.jpg);
+    background-size: cover;
 }
