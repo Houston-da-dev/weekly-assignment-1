@@ -6,10 +6,11 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 #logo{
-    width: 500px;
+    width: 450px;
 }
 
 header{
@@ -143,7 +144,7 @@ footer div{
 .icon{
     width: 60px;
     height: 60px;
-    margin: 30px;
+    margin: 15px;
 }
 
 #twitter{
@@ -184,4 +185,40 @@ footer div{
 #facebook:hover{
     background-image: url(images/icons/icon-facebook-hover.jpg);
     background-size: cover;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section img{
+    width: 850px;
+    border: 3px #333 solid;
+}
+
+section h1{
+    font-size: 56px;
+    padding: 10px 40px;
+    margin-bottom: 50px;
+    background-color: #333;
+    color: white;
+}
+
+.biocard{
+    flex-direction: column;
+    width: 750px;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.biocard:last-child{
+    margin-bottom: 80px;
+}
+
+.biocard p{
+    line-height: 35px;
+    font-size: 18px;
 }
