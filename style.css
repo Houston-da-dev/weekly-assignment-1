@@ -54,7 +54,7 @@ article{
 #hero{
     background-image: url('images/the-beacon.jpg');
     background-size: cover;
-    height: 1050px;
+    height: 1000px;
     display: flex;
     flex-direction: row;
 }
@@ -111,12 +111,12 @@ article{
     border: 3px solid #333;
     margin: 20px;
     filter: contrast(70%) brightness(130%);
-    transition: 2s;
+    transition: 1s;
 }
 
 .galleryrow img:hover{
     filter: contrast(100%) brightness(100%);
-    transition: 2s;
+    transition: 1s;
 }
 
 .imgcard{
@@ -227,4 +227,56 @@ section h1{
 .biocard p{
     line-height: 35px;
     font-size: 18px;
+}
+
+
+.blogcard img{
+    width: 500px;
+    border: none;
+    border-right: 3px solid #333;
+    margin: 0px;
+    filter: contrast(80%) brightness(120%);
+    transition: 1s;
+}
+
+.blogcard img:hover{
+    filter: contrast(100%) brightness(100%);
+    transition: 1s;
+}
+
+.blogcard{
+    max-width: 1200px;
+    border: #333 3px solid;
+    margin: 10px;
+}
+
+.blogcard div{
+    text-align: center;
+    width: 700px;
+}
+
+.blogcard div h3{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.blogcard div p{
+    font-size: 20px;
+    margin: 30px;
+}
+
+.blogcard div a{
+    color: white;
+    background-color: black;
+    padding: 5px 35px;
+    margin: 30px;
+    font-size: 24px;
+    font-weight: 800;
+    text-decoration: none;
+    border: 3px black solid;
+}
+
+.blogcard div a:hover{
+    color: black;
+    background-color: white;
 }
